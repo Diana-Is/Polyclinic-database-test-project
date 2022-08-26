@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<polyclinic>
+	<doctor code="1" surname="Ivanov" name="Ivan" otchestvo="Ivanovich" spezialization="surgeon" category="highest"/>
+	<doctor code="2" surname="Sergeev" name="Sergey" otchestvo="Sergeevich" spezialization="oncologist" category="highest"/>
+	<doctor code="3" surname="Chumakov" name="Dmitrii" otchestvo="Alekseevich" spezialization="therapist" category="highest"/>
+	<patient code="1" surname="Surkov" name="Sergey" otchestvo="Alekseevich" year_of_birth="05.08.1983"/>
+	<patient code="2" surname="Rusavina" name="Marina" otchestvo="Vladimirovna" year_of_birth="01.09.1988"/>
+	<patient code="3" surname="Tsvetaeva" name="Elena" otchestvo="Alexandrovna" year_of_birth="15.12.1975"/>
+	<appeal code="12" doctor="1" patient="2" date_of_application="21.09.2020" diagnosis="appendix" price="1500"/>
+	<appeal code="23" doctor="2" patient="3" date_of_application="27.08.2020" diagnosis="tumor" price="3000"/>
+	<appeal code="31" doctor="3" patient="1" date_of_application="15.05.2021" diagnosis="bronchitis" price="500"/>
+</polyclinic>
